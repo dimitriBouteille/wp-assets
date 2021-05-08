@@ -54,7 +54,7 @@ class AttributeBuilder
             return null;
         }
 
-        return sprintf('%s="%"', $key, $value);
+        return sprintf('%s="%s"', $key, $value);
     }
 
 }
